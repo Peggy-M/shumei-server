@@ -1,7 +1,11 @@
 package com.peppa.springweb.controller;
 
+import cn.hutool.json.JSONUtil;
+import com.peppa.springweb.dto.Product;
 import com.peppa.springweb.dto.TitleList;
-import com.peppa.springweb.utils.BuildDataUtis;
+import com.peppa.springweb.utils.BuildDataUtils;
+
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,13 +22,17 @@ import java.util.List;
 public class webController {
 
     @GetMapping("/getBannerImages")
-    public List<String> getBannerImages() {
-        return BuildDataUtis.getBannerImages();
+    public  List<String> getBannerImages() {
+        return BuildDataUtils.getBannerImages();
     }
 
     @GetMapping("/getTabList")
     public List<TitleList> getTabList() {
-        return BuildDataUtis.getTabs();
+        return BuildDataUtils.getTitleList();
     }
 
+    @GetMapping("/getProductList")
+    public List<Product>  getProductList(){
+        return BuildDataUtils.getProductList();
+    }
 }
