@@ -1,0 +1,218 @@
+[
+  {
+    "saasId": "88888888",
+    "storeId": "1000",
+    "spuId": "0",
+    "title": "白色短袖连衣裙荷叶边裙摆宽松韩版休闲纯白清爽优雅连衣裙",
+    "primaryImage": "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png",
+    "images": [
+      "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png",
+      "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09b.png"
+    ],
+    "video": null,
+    "available": 1,
+    "minSalePrice": 29800,
+    "minLinePrice": 0,
+    "maxSalePrice": 29800,
+    "maxLinePrice": 0,
+    "spuStockQuantity": 510,
+    "soldNum": 1020,
+    "isPutOnSale": 1,
+    "categoryIds": [
+      "127880527393854975",
+      "127880527393854976",
+      "127880537778953984"
+    ],
+    "specList": [
+      {
+        "specId": "10011",
+        "title": "颜色",
+        "specValueList": [
+          {
+            "specValueId": "10012",
+            "specValue": "米色荷叶边"
+          }
+        ]
+      },
+      {
+        "specId": "10013",
+        "title": "尺码",
+        "specValueList": [
+          {
+            "specValueId": "11014",
+            "specValue": "S"
+          },
+          {
+            "specValueId": "10014",
+            "specValue": "M"
+          },
+          {
+            "specValueId": "11013",
+            "specValue": "L"
+          }
+        ]
+      }
+    ],
+    "skuList": [
+      {
+        "skuId": "135676631",
+        "skuImage": "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png",
+        "specInfo": [
+          {
+            "specId": "10011",
+            "specValueId": "10012"
+          },
+          {
+            "specId": "10013",
+            "specValueId": "11014"
+          }
+        ],
+        "priceInfo": [
+          {
+            "priceType": 1,
+            "price": "29800"
+          },
+          {
+            "priceType": 2,
+            "price": "40000"
+          }
+        ],
+        "stockInfo": {
+          "stockQuantity": 175,
+          "safeStockQuantity": 0,
+          "soldQuantity": 0
+        },
+        "weight": null,
+        "volume": null,
+        "profitPrice": null
+      }
+    ],
+    "spuTagList": [
+      {
+        "id": "13001",
+        "title": "限时抢购",
+        "image": null
+      }
+    ],
+    "limitInfo": [
+      {
+        "text": "限购5件"
+      }
+    ],
+    "desc": [
+      "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09c.png",
+      "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09d.png"
+    ],
+    "etitle": ""
+  },
+  {
+    "saasId": "88888888",
+    "storeId": "1000",
+    "spuId": "135691628",
+    "title": "运动连帽拉链卫衣休闲开衫长袖多色运动细绒面料运动上衣",
+    "primaryImage": "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17a.png",
+    "images": null,
+    "video": null,
+    "available": 0,
+    "minSalePrice": 25900,
+    "minLinePrice": 0,
+    "maxSalePrice": 25900,
+    "maxLinePrice": 0,
+    "spuStockQuantity": 0,
+    "soldNum": 1022,
+    "isPutOnSale": 1,
+    "categoryIds": [],
+    "specList": [
+      {
+        "specId": "127904180600844800",
+        "title": "颜色",
+        "specValueList": [
+          {
+            "specValueId": "127904180768617216",
+            "specValue": "军绿色"
+          }
+        ]
+      },
+      {
+        "specId": "127904861604820480",
+        "title": "尺码",
+        "specValueList": [
+          {
+            "specValueId": "127904862494014208",
+            "specValue": "XS"
+          },
+          {
+            "specValueId": "127904862175246592",
+            "specValue": "S"
+          },
+          {
+            "specValueId": "127904862007474176",
+            "specValue": "M"
+          },
+          {
+            "specValueId": "127904861755815680",
+            "specValue": "L"
+          }
+        ]
+      }
+    ],
+    "skuList": [],
+    "spuTagList": [],
+    "limitInfo": [],
+    "desc": [],
+    "etitle": null
+  },
+  {
+    "saasId": "88888888",
+    "storeId": "1000",
+    "spuId": "135686633",
+    "title": "纯色纯棉休闲圆领短袖T恤纯白亲肤厚柔软细腻面料纯白短袖套头T恤",
+    "primaryImage": "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png",
+    "images": null,
+    "video": null,
+    "available": 0,
+    "minSalePrice": 25900,
+    "minLinePrice": 0,
+    "maxSalePrice": 26900,
+    "maxLinePrice": 0,
+    "spuStockQuantity": 371,
+    "soldNum": 1032,
+    "isPutOnSale": 1,
+    "categoryIds": [],
+    "specList": [
+      {
+        "specId": "10000",
+        "title": "颜色",
+        "specValueList": [
+          {
+            "specValueId": "10001",
+            "specValue": "白色"
+          }
+        ]
+      },
+      {
+        "specId": "10002",
+        "title": "尺码",
+        "specValueList": [
+          {
+            "specValueId": "11003",
+            "specValue": "S"
+          },
+          {
+            "specValueId": "10003",
+            "specValue": "M"
+          },
+          {
+            "specValueId": "11002",
+            "specValue": "L"
+          }
+        ]
+      }
+    ],
+    "skuList": [],
+    "spuTagList": [],
+    "limitInfo": [],
+    "desc": [],
+    "etitle": null
+  }
+]

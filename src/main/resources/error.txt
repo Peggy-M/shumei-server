@@ -1,0 +1,3 @@
+你的JSON中，第二组和第三组的skuList、spuTagList、limitInfo和desc字段为null，这可能导致某些解析器无法正常处理。
+
+为了确保它们正常显示，你可以将这些字段设置为空数组[]，而不是null
