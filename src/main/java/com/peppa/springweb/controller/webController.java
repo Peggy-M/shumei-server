@@ -1,11 +1,8 @@
 package com.peppa.springweb.controller;
 
-import cn.hutool.json.JSONUtil;
 import com.peppa.springweb.dto.Product;
 import com.peppa.springweb.dto.TitleList;
 import com.peppa.springweb.utils.BuildDataUtils;
-
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
