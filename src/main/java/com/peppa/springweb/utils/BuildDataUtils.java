@@ -110,6 +110,7 @@ public class BuildDataUtils {
         dress.setEtitle("");
 
         products.add(dress);
+//*******************************************************************************************************************************
 
         // 运动连帽拉链卫衣
         Product hoodie = new Product();
@@ -140,9 +141,41 @@ public class BuildDataUtils {
         ));
 
         hoodie.setSpecList(Arrays.asList(colorSpecHoodie, sizeSpecHoodie));
+        // SKU设置
+        Sku hoodieSku = new Sku();
+        hoodieSku.setSkuId("135676632");
+        hoodieSku.setSkuImage("https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17a.png");
+        hoodieSku.setSpecInfo(Arrays.asList(
+                new SpecInfo("127904180600844800", "127904180768617216"),
+                new SpecInfo("127904861604820480", "127904862175246592") // S
+        ));
+        hoodieSku.setPriceInfo(Arrays.asList(new PriceInfo(1, "25900")));
+        StockInfo hoodieStockInfo = new StockInfo();
+        hoodieStockInfo.setStockQuantity(0);
+        hoodieSku.setStockInfo(hoodieStockInfo);
 
+        hoodie.setSkuList(Collections.singletonList(hoodieSku));
+
+        // 标签设置
+        Tag hoodieTag = new Tag();
+        hoodieTag.setId("13002");
+        hoodieTag.setTitle("热卖");
+        hoodie.setSpuTagList(Collections.singletonList(hoodieTag));
+
+        // 限制信息设置
+        LimitInfo hoodieLimitInfo = new LimitInfo();
+        hoodieLimitInfo.setText("限购3件");
+        hoodie.setLimitInfo(Collections.singletonList(hoodieLimitInfo));
+
+        // 描述设置
+        hoodie.setDesc(Arrays.asList(
+                "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17b.png",
+                "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17c.png"
+        ));
+        dress.setEtitle("");
         // 添加到产品列表
         products.add(hoodie);
+//*********************************************************************************************************************************
 
         // 纯色纯棉T恤
         Product tShirt = new Product();
@@ -172,7 +205,38 @@ public class BuildDataUtils {
         ));
 
         tShirt.setSpecList(Arrays.asList(colorSpecTShirt, sizeSpecTShirt));
+        // SKU设置
+        Sku tShirtSku = new Sku();
+        tShirtSku.setSkuId("135686634");
+        tShirtSku.setSkuImage("https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png");
+        tShirtSku.setSpecInfo(Arrays.asList(
+                new SpecInfo("10000", "10001"),
+                new SpecInfo("10002", "10003") // M
+        ));
+        tShirtSku.setPriceInfo(Arrays.asList(new PriceInfo(1, "25900"), new PriceInfo(2, "26900")));
+        StockInfo tShirtStockInfo = new StockInfo();
+        tShirtStockInfo.setStockQuantity(371);
+        tShirtSku.setStockInfo(tShirtStockInfo);
 
+        tShirt.setSkuList(Collections.singletonList(tShirtSku));
+
+        // 标签设置
+        Tag tShirtTag = new Tag();
+        tShirtTag.setId("13003");
+        tShirtTag.setTitle("新款");
+        tShirt.setSpuTagList(Collections.singletonList(tShirtTag));
+
+        // 限制信息设置
+        LimitInfo tShirtLimitInfo = new LimitInfo();
+        tShirtLimitInfo.setText("限购5件");
+        tShirt.setLimitInfo(Collections.singletonList(tShirtLimitInfo));
+
+        // 描述设置
+        tShirt.setDesc(Arrays.asList(
+                "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08c.png",
+                "https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08d.png"
+        ));
+        dress.setEtitle("");
         // 添加到产品列表
         products.add(tShirt);
 
